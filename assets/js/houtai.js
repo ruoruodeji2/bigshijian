@@ -14,6 +14,7 @@ $(function () {
 
     })
 })
+//getUsearinfo()和xrtouxiang(user) 函数必须写在开口函数外面因为之后需要调用
 function getUsearinfo() {
     $.ajax({
         method: 'GET',
